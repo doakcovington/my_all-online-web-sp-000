@@ -11,9 +11,9 @@ def my_all?(collection)
     i = i + 1 #increase i by 1
   end #end of while loop
 
-  if block_return_values.include?(false)
-    false
-  else
-    true
-  end
-end
+  if block_return_values.include?(false) #if block_return_values includes a false value
+    false #return false
+  else #else
+    true #return true
+  end #end of if statement
+end #end of my_all? method
